@@ -11,7 +11,6 @@
 		0FFA400821E7D07700D0FF60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFA400721E7D07700D0FF60 /* ViewController.swift */; };
 		0FFA400B21E7D07700D0FF60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FFA400921E7D07700D0FF60 /* Main.storyboard */; };
 		0FFA400D21E7D07900D0FF60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FFA400C21E7D07900D0FF60 /* Assets.xcassets */; };
-		0FFA401021E7D07900D0FF60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FFA400E21E7D07900D0FF60 /* LaunchScreen.storyboard */; };
 		0FFA401B21E7D07900D0FF60 /* GlobalImpactTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFA401A21E7D07900D0FF60 /* GlobalImpactTests.swift */; };
 		0FFA402621E7D07900D0FF60 /* GlobalImpactUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFA402521E7D07900D0FF60 /* GlobalImpactUITests.swift */; };
 /* End PBXBuildFile section */
@@ -39,7 +38,6 @@
 		0FFA400721E7D07700D0FF60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0FFA400A21E7D07700D0FF60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0FFA400C21E7D07900D0FF60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0FFA400F21E7D07900D0FF60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FFA401121E7D07900D0FF60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FFA401621E7D07900D0FF60 /* GlobalImpactTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlobalImpactTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FFA401A21E7D07900D0FF60 /* GlobalImpactTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactTests.swift; sourceTree = "<group>"; };
@@ -97,12 +95,9 @@
 		0FFA400421E7D07700D0FF60 /* GlobalImpact */ = {
 			isa = PBXGroup;
 			children = (
-				0FFA400521E7D07700D0FF60 /* AppDelegate.swift */,
-				0FFA400721E7D07700D0FF60 /* ViewController.swift */,
-				0FFA400921E7D07700D0FF60 /* Main.storyboard */,
-				0FFA400C21E7D07900D0FF60 /* Assets.xcassets */,
-				0FFA400E21E7D07900D0FF60 /* LaunchScreen.storyboard */,
-				0FFA401121E7D07900D0FF60 /* Info.plist */,
+				0FFA403321E7D0E200D0FF60 /* Resources */,
+				0FFA403421E7D10700D0FF60 /* Controller */,
+				0FFA403521E7D12B00D0FF60 /* View */,
 			);
 			path = GlobalImpact;
 			sourceTree = "<group>";
@@ -123,6 +118,32 @@
 				0FFA402721E7D07900D0FF60 /* Info.plist */,
 			);
 			path = GlobalImpactUITests;
+			sourceTree = "<group>";
+		};
+		0FFA403321E7D0E200D0FF60 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0FFA400521E7D07700D0FF60 /* AppDelegate.swift */,
+				0FFA400C21E7D07900D0FF60 /* Assets.xcassets */,
+				0FFA401121E7D07900D0FF60 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0FFA403421E7D10700D0FF60 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0FFA400721E7D07700D0FF60 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0FFA403521E7D12B00D0FF60 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0FFA400921E7D07700D0FF60 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,7 +250,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FFA401021E7D07900D0FF60 /* LaunchScreen.storyboard in Resources */,
 				0FFA400D21E7D07900D0FF60 /* Assets.xcassets in Resources */,
 				0FFA400B21E7D07700D0FF60 /* Main.storyboard in Resources */,
 			);
@@ -299,14 +319,6 @@
 				0FFA400A21E7D07700D0FF60 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0FFA400E21E7D07900D0FF60 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0FFA400F21E7D07900D0FF60 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
