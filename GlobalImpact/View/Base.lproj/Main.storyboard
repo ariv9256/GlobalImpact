@@ -36,15 +36,23 @@
                                 <rect key="frame" x="16" y="251" width="343" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Animate to Location"/>
+                                <connections>
+                                    <action selector="MapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DWb-Ko-jUh"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="MKMapKit" destination="XSh-eH-SSk" id="p7Z-HZ-u5E"/>
+                        <outlet property="MapButton" destination="d2N-7J-orP" id="4MR-2I-BmS"/>
+                        <outlet property="MapImage" destination="PgO-cS-ssM" id="e5I-fn-nRV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="133.59999999999999" y="133.5832083958021"/>
+            <point key="canvasLocation" x="76" y="129"/>
         </scene>
     </scenes>
 </document>
